@@ -88,9 +88,10 @@ double modulus(int a, int b)
 
 void print_menu()
 {
-    printf("\n\n-----------------------------------\n");
-    printf("Welcome to C Calculator!\n");
-    printf("\nChoose one of the following operations:\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Modulus\n6. Power\n7. Exit\n");
-    printf("Please, enter your choice: ");
+    printf("\n\033[1;34m-----------------------------------\033[0m\n");
+    printf("\033[1;32mWelcome to C Calculator!\033[0m\n");
+    printf("\033[1;33mChoose one of the following operations:\033[0m\n");
+    printf("\n\033[1;36m1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Modulus\n6. Power\n7. Exit\033[0m\n");
+    printf("\033[1;35mPlease, enter your choice: \033[0m");
 }
+
